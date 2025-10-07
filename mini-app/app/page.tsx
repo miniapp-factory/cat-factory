@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import Button from "@/components/ui/button";
 import CatAscii from "@/components/cat-ascii";
 
 export async function generateMetadata(): Promise<Metadata> {
